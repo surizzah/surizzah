@@ -1,0 +1,114 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Izzah's Section ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <p class="welcome">WELCOME TO</p>
+    <h1>Izzah's Section ♡</h1>
+    <p class="subtitle">Your little corner of music, movies and games.</p>
+    <button id="surprise-btn" class="surprise-btn">✨ Surprise Me!</button>
+  </header>
+
+  <main class="container">
+
+    <!-- MUSIC DISCOVERY -->
+    <section class="card music-card">
+      <div class="icon">🎧</div>
+      <p class="category">MUSIC DISCOVERY</p>
+      <h2>Music Roulette</h2>
+      <p class="description">Find a song to match your mood!</p>
+
+      <div class="result">
+        <img id="music-image" class="cover hidden" alt="Album cover">
+        <h3 id="music-title">Your next favourite song awaits...</h3>
+        <p id="music-artist">Artist: —</p>
+        <p id="music-album">Album: —</p>
+
+        <audio id="music-preview" controls class="hidden"></audio>
+
+        <a id="music-link" class="result-link hidden"
+           href="#" target="_blank" rel="noopener noreferrer">
+          Listen on Deezer ↗
+        </a>
+
+        <p id="music-status" class="status" aria-live="polite"></p>
+      </div>
+
+      <button id="music-btn" class="action-btn">
+        🎵 Discover Music
+      </button>
+    </section>
+
+    <!-- MOVIE / SERIES DISCOVERY -->
+    <section class="card movie-card">
+      <div class="icon">🎬</div>
+      <p class="category">SERIES DISCOVERY</p>
+      <h2>Series Roulette</h2>
+      <p class="description">Discover a series for your next binge-watching session!</p>
+
+      <div class="result">
+        <img id="movie-image" class="cover hidden" alt="Series poster">
+        <h3 id="movie-title">Your next series awaits...</h3>
+        <p id="movie-year">Premiered: —</p>
+        <p id="movie-rating">Rating: —</p>
+        <p id="movie-genre">Genres: —</p>
+
+        <div id="movie-overview" class="overview"></div>
+
+        <a id="movie-link" class="result-link hidden"
+           href="#" target="_blank" rel="noopener noreferrer">
+          Explore this series ↗
+        </a>
+
+        <p id="movie-status" class="status" aria-live="polite"></p>
+      </div>
+
+      <button id="movie-btn" class="action-btn">
+        📺 Discover a Series
+      </button>
+    </section>
+
+    <!-- GAME DISCOVERY -->
+    <section class="card game-card">
+      <div class="icon">🎮</div>
+      <p class="category">FREE GAME DISCOVERY</p>
+      <h2>Game Hunter</h2>
+      <p class="description">Find exciting games and free giveaways!</p>
+
+      <div class="result">
+        <img id="game-image" class="cover hidden" alt="Game image">
+        <h3 id="game-title">Your next game awaits...</h3>
+        <p id="game-platform">Platform: —</p>
+        <p id="game-worth">Worth: —</p>
+        <p id="game-type">Type: —</p>
+
+        <a id="game-link" class="result-link hidden"
+           href="#" target="_blank" rel="noopener noreferrer">
+          Get this game ↗
+        </a>
+
+        <p id="game-status" class="status" aria-live="polite"></p>
+      </div>
+
+      <button id="game-btn" class="action-btn">
+        🕹️ Discover a Game
+      </button>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made with love by Izzah ♡</p>
+    <p class="footer-small">Music • Movies • Games</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
